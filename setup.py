@@ -18,7 +18,7 @@ with readme_path.open('r', encoding='utf8') as f:
 install_requires = [
     'spacy>=2.2.1,<3.0.0',
     'spacybert>=1.0.0',
-    'torch>=1.4.0 -f https://download.pytorch.org/whl/torch_stable.html'
+    'torch>=1.4.0'
 ]
 test_requires = ['pytest']
 
@@ -26,6 +26,7 @@ setup(
     name=package_name,
     description=about['__summary__'],
     long_description=readme,
+    long_description_content_type='text/markdown',
     author=about['__author__'],
     author_email=about['__email__'],
     url=about['__uri__'],
