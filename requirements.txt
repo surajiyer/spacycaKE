@@ -1,0 +1,3 @@
+spacy>=2.2.1,<3.0.0
+spacybert>=1.0.0
+torch>=1.4.0 -f https://download.pytorch.org/whl/torch_stable.html
